@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Manipulacion del DOM con aguacates</title>
+  </head>
+  <body>
+
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+        >
+          platzi - Manipulacion del DOM - Santiago Sierra
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+        >
+          Aguates Monte Bello
+        </h3>
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          Conoce nuestros cultivos y diferentes tipos
+        </p>
+        <div id="containerApp" class="mt-10 grid grid-cols-2 gap-2">
+          <!-- aqui renderiza los nodos -->
+        </div>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
